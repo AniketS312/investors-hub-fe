@@ -1,13 +1,18 @@
-@import '../abstracts/variables';
-@import '../abstracts/mixins';
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
 
 .nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 1em;
-	position: relative;
-	z-index: 100;
-	padding-left: 1.5em;
-	padding-right: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 100;
+  padding: 1em 4em;
+
+  &__icon-container img {
+    height: 5em;
+  }
+  &__profile-container img {
+    height: 3em;
+  }
 }
