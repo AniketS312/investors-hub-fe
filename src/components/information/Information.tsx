@@ -136,7 +136,9 @@ function Information() {
               >
                 Submit
               </button> */}
-              <Link to="/ideas">Ideas</Link>
+              <Link className="informationn__button" to="/ideas">
+                Ideas
+              </Link>
             </div>
           </div>
         </div>
