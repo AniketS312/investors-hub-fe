@@ -10,7 +10,9 @@ function Ideas() {
           <h1>Entrepreneurs</h1>
           <p>Talk to an idealist</p>
         </div>
-        <div className="container__search"></div>
+        <div className="container__search">
+          <input type="search" name="Search" id="search" value="Search" />
+        </div>
       </div>
     </div>
   );

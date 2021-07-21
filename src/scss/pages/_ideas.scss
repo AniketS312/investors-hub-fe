@@ -1,7 +1,14 @@
 @import "../abstracts/variables";
 @import "../abstracts/mixins";
-.ideas {
-  .container__investors {
+
+.ideas .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10em;
+  height: 70vh;
+  width: 100%;
+  align-items: flex-start;
+  &__investors {
     h1 {
       color: $blue-dark;
       font-size: 10rem;
@@ -11,6 +18,31 @@
       font-size: 3rem;
       //   maybe delete this padding?
       padding-left: 0.1em;
+    }
+  }
+  &__search {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    border-left: 3px solid $yellow-dark;
+    height: 100%;
+    width: 15%;
+    input {
+      margin-top: 4rem;
+      height: 3em;
+      width: 90%;
+      padding: 0 0.5em;
+      border: none;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.19);
+      -webkit-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.19);
+      -moz-box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.19);
+
+      &:active,
+      &:focus {
+        outline: none;
+        border: none;
+      }
     }
   }
 }
