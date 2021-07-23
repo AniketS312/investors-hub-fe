@@ -11,24 +11,29 @@
   &__investors {
     h1 {
       color: $blue-dark;
-      font-size: 10rem;
+      font-size: 10em;
     }
-    p {
+    h2 {
       color: $yellow-light;
-      font-size: 3rem;
+      font-size: 3em;
       //   maybe delete this padding?
       padding-left: 0.1em;
+      margin-bottom: 2em;
     }
   }
   &__search {
     display: flex;
     justify-content: flex-end;
     align-self: center;
-    border-left: 3px solid $yellow-dark;
+    border-left: 5px solid $yellow-dark;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     height: 100%;
     width: 15%;
     input {
-      margin-top: 4rem;
+      margin-top: 4em;
       height: 3em;
       width: 90%;
       padding: 0 0.5em;
