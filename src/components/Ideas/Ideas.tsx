@@ -32,4 +32,19 @@ function Ideas() {
   );
 }
 
+const text = [
+  {
+    id: 1,
+    title: "Crypto Payment System",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lobortis estinterdum felis urna, aliquet integer habitasse eu.",
+  },
+  {
+    id: 2,
+    title: "Real Estate Boom",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit velit varius enim velit amet.",
+  },
+];
+
 export default Ideas;
